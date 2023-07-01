@@ -19,6 +19,9 @@ import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatSelectModule} from '@angular/material/select';
 import { ProfileComponent } from 'app/profile/profile.component';
 import { ContactComponent } from 'app/contact/contact.component';
+import { AboutmeComponent } from 'app/aboutme/aboutme.component';
+import { SkillComponent } from 'app/skill/skill.component';
+
 
 @NgModule({
   imports: [
@@ -44,6 +47,9 @@ import { ContactComponent } from 'app/contact/contact.component';
     UpgradeComponent,
     ProfileComponent,
     ContactComponent,
+    AboutmeComponent,
+    SkillComponent,
+
   ]
 })
 
